@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<style>
+  body {
+    background-color: beige;
+    color:  blue;
+    margin: 1px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: red wavy underline;
+    border-width: 2px;
+    border-style: solid;
+    border-color: chartreuse;
+    line-height: 50px;
+    font-size: 20px;</head>
+    }
+<body>
+
+</body>
+</html>
