@@ -4,31 +4,45 @@
 
 <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="akash.css/">
+    <link rel="stylesheet" href="akash.css">
+    <script src="p5.min.js"></script>
+    <script src="vanta.topology.min.js"></script>
+</head>
+<body>
+    <div class='container' id=con1>
+<div class='logbox'>
 
-
-    <br>
-
+<div class='box' id="b1">
         <label for="uname"><b>Username *</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-<br>
+        <input style='border-radius:8px' type="text" placeholder="Enter Username" name="uname" required>
+</div>
+<div class='box' id="b2">
         <label for="psw"><b>Password *</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-<br>
-    <br>
-
+        <input type="password" style='border-radius:8px' placeholder="Enter Password" name="psw" required>
+<div style='margin-top:100px';>
         <button type="submit";>Login</button>
+</div>
 
-
-    <style>
-
-}
-</style>
-
+</div>
+</div>
+</div>
 
     </h1>
 
     </div>
 
-</head>
+<script>
+VANTA.TOPOLOGY({
+  el: "#con1",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+</script>
+</body>
+
 </html>

@@ -1,23 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-<style>
-  body {
-    background-color: beige;
-    color:  blue;
-    margin: 1px;
-    text-align: center;
-    font-weight: 800;
-    text-transform: capitalize;
-    text-decoration: red wavy underline;
-    border-width: 2px;
-    border-style: solid;
-    border-color: chartreuse;
-    line-height: 50px;
-    font-size: 20px;</head>
-    }
-<body>
+.container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 480px;
+    width: 100%;
 
-</body>
-</html>
+}
+
+    .logbox{
+        display:grid;
+        grid-template-rows: repeat(2,50px);
+        height: 300px;
+        width: 200px;
+        background: rgba( 255, 255, 255, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        text-align: center;
+        border-width: 2px;
+        border-style: solid;
+        border-color: chartreuse;
+        border-radius: 20px;
+        align-items: center;
+        /* background-color: rgba(202, 202, 49, 0.596);
+        color:  blue;
+        margin: 1px;
+        text-align: center;
+        font-weight: 800;
+        text-transform: capitalize;
+        text-decoration: red wavy underline;
+        border-width: 2px;
+        border-style: solid;
+        border-color: chartreuse;
+        border-radius: 20px;
+        font-size: 20px; */
+    }
+    .box{
+        height: 20px;
+        width: auto;
+ 
+       
+    }
+    #b1{
+        margin-top: 90px;
+    }
+    #b2{
+        margin-top: 90px;
+    }
